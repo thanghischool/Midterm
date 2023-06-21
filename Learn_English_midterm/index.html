@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn English</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="m-5 text-center">🌸Learn English with me🌸</h1>
+    <form class="form-head">
+        <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-lg" style="width: 200px;">Word in English </span>
+            </div>
+            <input id="japanese" type="text" class="form-control japanese" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" required name="jap">
+          </div>
+        </br>
+          <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-lg" style="width: 200px;">Meaning in Vietnam  </span>
+            </div>
+            <input id="english" type="text" class="form-control english" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" required name="eng">
+          </div>
+        </br>
+        <button type="button" class="btn btn-outline-success" id="add-button">Add a word</button>
+    </form>
+    <ul class="card-list row m-2 d-flex flex-row justify-content-center" id="card">
+      <li class="card border-success m-3" style="width: 18rem;">
+        <div class="card-body">
+          <input type="textbox" class="card-title" value="Tiếng Anh" disabled></input>
+          <input type="textbox" class="card-text" value="English" disabled></input>
+        </div>
+        <div class="flex mb-3">
+          <button type="button" class="btn btn-outline-warning edit">edit</button>
+          <button type="button" class="btn btn-outline-info update">update</button>
+          <button type="button" class="btn btn-outline-danger delete">delete</button>
+        </div>
+      </li>
+      <li class="card border-success m-3" style="width: 18rem;">
+        <div class="card-body">
+          <input type="textbox" class="card-title" value="Ăn tối" disabled></input>
+          <input type="textbox" class="card-text" value="Dinner" disabled></input>
+        </div>
+        <div class="flex mb-3">
+          <button type="button" class="btn btn-outline-warning edit">edit</button>
+          <button type="button" class="btn btn-outline-info update">update</button>
+          <button type="button" class="btn btn-outline-danger delete">delete</button>
+        </div>
+      </li>
+      <li class="card border-success m-3" style="width: 18rem;">
+        <div class="card-body">
+          <input type="textbox" class="card-title" value="Điện" disabled></input>
+          <input type="textbox" class="card-text" value="Electric" disabled></input>
+        </div>
+        <div class="flex mb-3">
+          <button type="button" class="btn btn-outline-warning edit">edit</button>
+          <button type="button" class="btn btn-outline-info update">update</button>
+          <button type="button" class="btn btn-outline-danger delete">delete</button>
+        </div>
+      </li>
+    </ul>
+    <footer>
+        <div>
+            <p style="color:cornflowerblue;"> Không gì là không thể trừ khi bản thân nghĩ là không thể</p>
+          </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
